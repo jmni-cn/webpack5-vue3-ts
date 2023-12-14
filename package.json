@@ -1,7 +1,7 @@
 {
-  "name": "taxi_platform",
+  "name": "feApp",
   "version": "1.0.0",
-  "description": "webpack5,vue3,typescript,prettier",
+  "description": "webpack5-vue3-ts前端项目的配置模板",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.prod.config.js",
     "serve": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.dev.config.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmni-cn/webpack5-vue-ts.git"
+    "url": "git+https://github.com/jmni-cn/webpack5-vue3-ts.git"
   },
   "author": "jmni-cn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jmni-cn/webpack5-vue-ts/issues"
+    "url": "https://github.com/jmni-cn/webpack5-vue3-ts/issues"
   },
-  "homepage": "https://github.com/jmni-cn/webpack5-vue-ts#readme",
+  "homepage": "https://github.com/jmni-cn/webpack5-vue3-ts#readme",
   "devDependencies": {
     "@babel/core": "^7.23.6",
     "@babel/preset-env": "^7.23.6",
