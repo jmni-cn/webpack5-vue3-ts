@@ -1,0 +1,64 @@
+{
+  "name": "taxi_platform",
+  "version": "1.0.0",
+  "description": "webpack5,vue3,typescript,prettier",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.prod.config.js",
+    "serve": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.dev.config.js",
+    "lint": "eslint src --ext .js,.ts,.vue,.jsx --cache --fix",
+    "analyze": "webpack-bundle-analyzer --port 3000 ./dist/stats.json",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmni-cn/webpack5-vue-ts.git"
+  },
+  "author": "jmni-cn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmni-cn/webpack5-vue-ts/issues"
+  },
+  "homepage": "https://github.com/jmni-cn/webpack5-vue-ts#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-typescript": "^7.23.3",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vue/compiler-sfc": "^3.3.11",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-with-typescript": "^42.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^9.19.2",
+    "eslint-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^5.5.4",
+    "husky": "^8.0.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.3.0",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.3.3",
+    "vue-eslint-parser": "^9.3.2",
+    "vue-loader": "^17.3.1",
+    "webpack": "^5.89.0",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.36"
+  }
+}
