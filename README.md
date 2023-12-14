@@ -1,4 +1,4 @@
-# webpack5-vue-ts
+# webpack5-vue3-ts
 
 避免重复搭建前端项目，本仓库为webpack5-vue-ts前端项目的配置模板，包含常用的前端配置模块，可一键fork。
 
